@@ -1,0 +1,13 @@
+.countainer{
+    display: flex;
+    flex-direction: column;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+}
