@@ -1,0 +1,40 @@
+body{
+    background-color:black;
+}
+.body{
+    background-color: #fff;
+}
+.dark_light{
+    position: relative;
+    width: 90px;
+    height: 34px;
+    background-color:#252525;
+    border-radius:30px ;
+}
+.moon,.sun{
+    background-color: transparent;
+    border:none;
+    width: 20px;
+}
+.sun{
+    position: absolute;
+    top: 2px;
+    right: 10px;
+}
+.btn{
+    background-color:#fff ;
+    border:none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+
+}
+.btn2{
+    right: auto;
+    left: 0;
+    top: 2px;
+}
